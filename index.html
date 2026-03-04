@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RetroRide Aarhus</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">
+        <span class="logo-main">RetroRide</span>
+        <span class="logo-sub">Aarhus</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Åbn navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" class="nav-link active">Hjem</a></li>
+        <li><a href="categories.html" class="nav-link">Samling</a></li>
+        <li><a href="gallery.html" class="nav-link">Galleri</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero" style="background-image: linear-gradient(rgba(30,26,20,0.45), rgba(30,26,20,0.45)), url('photos/gt-1-hero.jpg'); background-size: cover; background-position: center 80%;">
+    <div class="hero-content">
+      <!-- Skriv dit sted/by her, f.eks. "Grundlagt i Aarhus, Danmark" -->
+      <p class="hero-label">Skriv dit sted her</p>
+      <!-- Skriv din overskrift her -->
+      <h1 class="hero-title"><em>Nyt liv til gamle og glemte cykler</em></h1>
+      <!-- Skriv en kort beskrivelse af din samling her -->
+      <p class="hero-tagline">Skriv en kort beskrivelse af din samling her.</p>
+      <div class="hero-ctas">
+        <a href="categories.html" class="btn btn-primary">Udforsk Samlingen</a>
+        <a href="gallery.html" class="btn btn-secondary">Se Galleriet</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Udvalgte Cykler -->
+  <section class="section section-alt">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label">Samlingen</p>
+        <h2 class="section-title">Udvalgte Cykler</h2>
+        <!-- Skriv en kort undertekst til denne sektion -->
+        <p class="section-subtitle">Skriv en kort tekst om dine udvalgte cykler her.</p>
+      </div>
+
+      <div class="bikes-grid">
+
+        <!-- GT -->
+        <article class="bike-card">
+          <a href="bikes/bike-1.html" class="bike-card-link">
+            <div class="bike-card-image">
+              <img src="photos/gt-1.jpg" alt="GT Mountainbike" loading="lazy" />
+            </div>
+            <div class="bike-card-body">
+              <p class="bike-card-year">Årstal</p>
+              <h3 class="bike-card-name">GT</h3>
+              <p class="bike-card-desc">Skriv en kort beskrivelse af denne cykel her.</p>
+              <span class="bike-card-cta">Se Detaljer →</span>
+            </div>
+          </a>
+        </article>
+
+        <!-- Specialized -->
+        <article class="bike-card">
+          <a href="bikes/bike-3.html" class="bike-card-link">
+            <div class="bike-card-image">
+              <img src="photos/specialized-1.jpg" alt="Specialized Mountainbike" loading="lazy" />
+            </div>
+            <div class="bike-card-body">
+              <p class="bike-card-year">Årstal</p>
+              <h3 class="bike-card-name">Specialized</h3>
+              <p class="bike-card-desc">Skriv en kort beskrivelse af denne cykel her.</p>
+              <span class="bike-card-cta">Se Detaljer →</span>
+            </div>
+          </a>
+        </article>
+
+        <!-- Nishiki -->
+        <article class="bike-card">
+          <a href="bikes/bike-4.html" class="bike-card-link">
+            <div class="bike-card-image">
+              <img src="photos/nishiki-1.jpg" alt="Nishiki Racercykel" loading="lazy" />
+            </div>
+            <div class="bike-card-body">
+              <p class="bike-card-year">Årstal</p>
+              <h3 class="bike-card-name">Nishiki</h3>
+              <p class="bike-card-desc">Skriv en kort beskrivelse af denne cykel her.</p>
+              <span class="bike-card-cta">Se Detaljer →</span>
+            </div>
+          </a>
+        </article>
+
+      </div>
+
+      <div class="section-footer">
+        <a href="categories.html" class="btn btn-outline">Se Hele Samlingen</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Om Showroomet -->
+  <section class="section">
+    <div class="container-narrow">
+      <div class="section-header">
+        <p class="section-label">Om Showroomet</p>
+        <h2 class="section-title">Samlingen</h2>
+      </div>
+      <div class="about-content">
+        <!-- Skriv første afsnit om dig selv og din samling -->
+        <p class="about-text">Skriv første afsnit om dig selv og din samling her.</p>
+        <!-- Skriv andet afsnit — f.eks. om dine cykler eller din passion -->
+        <p class="about-text">Skriv andet afsnit her.</p>
+        <!-- Skriv tredje afsnit — f.eks. kontaktoplysninger eller placering -->
+        <p class="about-text">Skriv tredje afsnit her.</p>
+        <a href="categories.html" class="btn btn-primary" style="margin-top:1.5rem;">Gennemse Samlingen</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="footer-logo">
+            <span class="logo-main">RetroRide</span>
+            <span class="logo-sub">Aarhus</span>
+          </a>
+          <!-- Skriv en kort beskrivelse til footeren -->
+          <p class="footer-tagline">Skriv en kort beskrivelse her.</p>
+        </div>
+        <div class="footer-col">
+          <h4 class="footer-heading">Kategorier</h4>
+          <ul class="footer-links">
+            <li><a href="categories.html#mountainbikes">Mountainbikes</a></li>
+            <li><a href="categories.html#racercykler">Racercykler</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 class="footer-heading">Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Hjem</a></li>
+            <li><a href="categories.html">Samling</a></li>
+            <li><a href="gallery.html">Galleri</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 class="footer-heading">Følg Med</h4>
+          <ul class="footer-links">
+            <li><a href="https://www.instagram.com/retroride_aarhus" target="_blank" rel="noopener">Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <!-- Skriv dit navn og årstallet, f.eks. "© 2024 Dit Navn. Alle rettigheder forbeholdes." -->
+        <p>© 2024 RetroRide Aarhus. Alle rettigheder forbeholdes.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

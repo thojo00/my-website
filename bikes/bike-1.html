@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Skriv din cykels navn i title-tagget nedenfor -->
+  <title>GT — RetroRide Aarhus</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/styles.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav-container">
+      <a href="../index.html" class="nav-logo">
+        <span class="logo-main">RetroRide</span>
+        <span class="logo-sub">Aarhus</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Åbn navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="../index.html" class="nav-link">Hjem</a></li>
+        <li><a href="../categories.html" class="nav-link">Samling</a></li>
+        <li><a href="../gallery.html" class="nav-link">Galleri</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Brødkrumme-navigation øverst på siden -->
+  <div class="breadcrumb">
+    <div class="breadcrumb-inner">
+      <a href="../index.html" class="breadcrumb-link">Hjem</a>
+      <span class="breadcrumb-sep">›</span>
+      <a href="../categories.html" class="breadcrumb-link">Samling</a>
+      <span class="breadcrumb-sep">›</span>
+      <a href="../categories.html#mountainbikes" class="breadcrumb-link">Mountainbikes</a>
+      <span class="breadcrumb-sep">›</span>
+      <!-- Skriv din cykels navn her -->
+      <span class="breadcrumb-current">GT</span>
+    </div>
+  </div>
+
+  <!-- Stort hero-billede øverst -->
+  <div class="bike-hero">
+    <!-- Erstat src med stien til dit brede hero-foto, f.eks. src="../fotos/cykel1-hero.jpg" -->
+    <img src="../photos/gt-1.jpg" alt="GT Mountainbike" />
+  </div>
+
+  <!-- Sidens indhold: tekst til venstre, specifikationer til højre -->
+  <div class="bike-page-body">
+
+    <!-- Hovedindhold -->
+    <main class="bike-content">
+
+      <div class="bike-title-block">
+        <!-- Skriv kategorien, f.eks. "Landevejsklassiker" -->
+        <p class="bike-label">Mountainbike</p>
+        <!-- Skriv cykelens fulde navn -->
+        <h1 class="bike-title">GT</h1>
+        <!-- Skriv årstal og oprindelse, f.eks. "ca. 1972 · Italiensk fremstilling" -->
+        <p class="bike-year-make">Årstal · Oprindelse</p>
+      </div>
+
+      <!-- Historieafsnit -->
+      <div class="content-section">
+        <h2 class="content-section-title">Historie</h2>
+        <!-- Skriv første afsnit om cykelens baggrund og historie -->
+        <p>Skriv første afsnit om cykelens historie her.</p>
+        <!-- Skriv andet afsnit — f.eks. om hvordan du fandt cyklen -->
+        <p>Skriv andet afsnit her.</p>
+      </div>
+
+      <!-- Ændringer og restaurering -->
+      <div class="content-section">
+        <h2 class="content-section-title">Ændringer og Restaurering</h2>
+        <ul class="mod-list">
+          <!-- Skriv hvad du har ændret eller restaureret på cyklen -->
+          <!-- Kopiér <li>-linjerne nedenfor for at tilføje flere punkter -->
+          <li>Beskriv ændring eller restaurering her</li>
+          <li>Beskriv ændring eller restaurering her</li>
+          <li>Beskriv ændring eller restaurering her</li>
+        </ul>
+      </div>
+
+    </main>
+
+    <!-- Specifikationsboks til højre -->
+    <aside class="bike-sidebar">
+      <div class="specs-card">
+        <div class="specs-card-header">
+          <h2 class="specs-card-title">Specifikationer</h2>
+        </div>
+        <ul class="specs-list">
+          <li class="specs-item">
+            <span class="specs-key">År</span>
+            <!-- Skriv årstallet, f.eks. "ca. 1972" -->
+            <span class="specs-value">Udfyld</span>
+          </li>
+          <li class="specs-item">
+            <span class="specs-key">Mærke / Oprindelse</span>
+            <!-- Skriv mærke og land, f.eks. "Italier" eller "Ukendt" -->
+            <span class="specs-value">Udfyld</span>
+          </li>
+          <li class="specs-item">
+            <span class="specs-key">Kategori</span>
+            <!-- Skriv kategorien -->
+            <span class="specs-value">Udfyld</span>
+          </li>
+          <li class="specs-item">
+            <span class="specs-key">Ramme</span>
+            <!-- Skriv rammemateriale og konstruktion -->
+            <span class="specs-value">Udfyld</span>
+          </li>
+          <li class="specs-item">
+            <span class="specs-key">Gear</span>
+            <!-- Skriv gearsystem -->
+            <span class="specs-value">Udfyld</span>
+          </li>
+          <li class="specs-item">
+            <span class="specs-key">Bremser</span>
+            <!-- Skriv bremsetypen -->
+            <span class="specs-value">Udfyld</span>
+          </li>
+          <li class="specs-item">
+            <span class="specs-key">Stand</span>
+            <!-- Skriv cykelens nuværende stand -->
+            <span class="specs-value">Udfyld</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="back-link-wrap">
+        <a href="../categories.html#mountainbikes" class="back-link">← Tilbage til Mountainbikes</a>
+      </div>
+    </aside>
+
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="../index.html" class="footer-logo">
+            <span class="logo-main">RetroRide</span>
+            <span class="logo-sub">Aarhus</span>
+          </a>
+          <p class="footer-tagline">Skriv en kort beskrivelse her.</p>
+        </div>
+        <div class="footer-col">
+          <h4 class="footer-heading">Kategorier</h4>
+          <ul class="footer-links">
+            <li><a href="../categories.html#mountainbikes">Mountainbikes</a></li>
+            <li><a href="../categories.html#racercykler">Racercykler</a></li>
+            
+            
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 class="footer-heading">Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="../index.html">Hjem</a></li>
+            <li><a href="../categories.html">Samling</a></li>
+            <li><a href="../gallery.html">Galleri</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2024 RetroRide Aarhus. Alle rettigheder forbeholdes.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>
